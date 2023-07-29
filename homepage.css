@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .background-image{
+    background-image: url("./image/backimg.png");
+    /* background: transparent linear-gradient(180deg, #9D0E0E00 0%, #4F0707 100%) 0% 0% no-repeat padding-box; */
+    height: 480px;
+}
+.login-button,.create-newacc{
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+.login-button:hover,.create-newacc:hover{
+    color: white;
+}
+.create-newacc{
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.logo{
+    display: inline;
+    color: #EB2929;
+    background: #FBFBFB;
+    border-radius: 50%;
+    font-size: 50px;
+    font-weight: 500;
+}
+.location-dropdown{
+    text-decoration: none;
+}
+.title{
+    color: #FBFBFB;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+
+/* ------------------------------------------------------------------------ */
+
+.search-title{
+    color: #192F60;
+    font: normal normal bold 30px/46px;
+    margin-left: 50px;
+    margin-top: 45px;
+}
+.search-subtitle{
+    color:#8C96AB;
+    font: normal normal normal 18px/27px;
+    margin-left: 55px;
+    margin-top: 5px;
+}
+.card-title{
+    text-decoration: none;
+    display: inline;
+    color: #192F60;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.card-details{
+    display: inline;
+    color: #8C96AB;
+    font-weight: 400;
+    font-size: 15px;
+}
+.row-height{
+    height: 75px;
+}
+
+.text-dec{
+    text-decoration: none;
+}

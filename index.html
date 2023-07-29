@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="homepage.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <title>home page</title>
+    </head>
+  <body>
+    <div class="container-fluid background-image">
+        <div class="row text-end pt-4 login-signup-row">
+            <div class="col-7"></div>
+            <div class="col-2 text-end">
+                <!-- <a href="#" class="login-button">login</a> -->
+                <button href= "#" class="btn text-white login-button">login</button>
+            </div>
+            <div class="col-3 text-start">
+                <!-- <a href="#" class="create-newacc px-2 py-2">create an account</a> -->
+                <button href= "#" class="btn text-white create-newacc">Create Account</button>
+            </div>
+        </div>
+        <div class="row pt-4 mx-auto text-center">
+            <div class="col-12">
+                <p class="px-4 py-3 logo">e!</p>
+            </div>
+        </div>
+        <div class="row pt-4 text-center">
+            <div class="col-12"> 
+                <p class="title">Find the best restaurants, cafés, and bars</p>
+            </div>
+        </div>
+        
+        <div class="row"> 
+            <!-- pt-4 mx-auto text-center search-location -->
+            <div class="col-lg-6 gap-2 d-flex mx-auto align-items-center px-auto"> 
+                <!-- <div class="col-12 col-sm-12 col-md-1 col-lg-2 col-xl-2"></div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-3 col-xl-3"> -->
+                    <select class="form-select w-50 ">
+                        <option selected>Select your Area</option>
+                        <option value="1">Chennai</option>
+                        <option value="2">Mumbai</option>
+                        <option value="3">Hyderabad</option>
+                        <option value="3">Delhi</option>
+                        <option value="4">Banglore</option>
+                    </select>
+             <!-- </div> -->
+        
+                <!-- <div class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-5"> -->
+                <div class="input-group w-50 ">
+                    <span class="input-group-text bg-white rounded-0">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg> </span>
+                    <input type="text" class="form-control bg-white"   placeholder="search for restaurants"/>
+                </div>
+                    <!-- </div> -->
+                <!-- <div class="col-12 col-sm-12 col-md-1 col-lg-2 col-xl-2"></div> -->
+            </div>      
+        </div>  
+    </div> 
+
+
+
+    <div class="search-items">
+        <div class="search-title">
+            <h2>Quick Searches</h2>
+        </div>
+        <div class="search-subtitle">
+            <p>Discover restaurants by type of meal</p>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row gap-2 justify-content-evenly">
+                
+                <!-- <div class="col-1"></div> -->
+                <div class="d-flex mb-5 col-10 col-sm-9 col-md-4 col-lg-3 col-xl-3 px-0 py-0 border shadow bg-white">
+                    
+                    <img src="./image/BreakFast.png" class=" image-fluid w-50">
+                    
+                    <div class="class" style="width: 40%;">
+                        <div class="card-body" style="text-align: center;">
+                            <a href="./html-assignment1.html" target="_blank" class="text-dec">
+                            <div><p class="card-title">Breakfast</p></div>
+                            </a>
+                            <p class="card-details">Start your day with exclusive breakfast options</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            
+                <!-- <div class="col-1 "></div> -->
+                <div class="d-flex mb-5 col-10 col-sm-9 col-md-4 col-lg-3 col-xl-3 px-0 py-0 border shadow bg-white">
+                        <img src="./image/Lunch.png" class="image-fluid w-50">
+                        <div class="class" style="width: 40%;">
+                            <div class="card-body" style="text-align: center;">
+                                <a href="./html-assignment1.html" target="_blank" class="text-dec">
+                                <div><p class="card-title">Lunch</p></div> 
+                                </a>
+                                <p class="card-details">Start your day with exclusive breakfast options</p>
+                            </div>
+                        </div>
+                </div>
+
+            
+                <!-- <div class="col-1"></div> -->
+                <div class="d-flex mb-5 col-10 col-sm-9 col-md-4 col-lg-3 col-xl-3 px-0 py-0 border shadow bg-white">
+                    <img src="./image/Snacks.png" class="image-fluid w-50">
+                    <div class="class" style="width: 40%;">
+                        <div class="card-body" style="text-align: center;">
+                            <a href="./html-assignment1.html" target="_blank" class="text-dec">
+                            <div><p class="card-title">Snacks</p></div> 
+                            </a>
+                            <p class="card-details">Start your day with exclusive breakfast options</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2"></div>   
+
+                        
+            <div class="row gap-2 justify-content-evenly">
+                
+                <!-- <div class="col-1"></div> -->
+                <div class="d-flex mb-5 col-10 col-sm-9 col-md-4 col-lg-3 col-xl-3 px-0 py-0 border shadow bg-white  div1">
+                    <img src="./image/Dinner.png" class=" image-fluid w-50">
+                    <div class="class" style="width: 40%;">
+                        <div class="card-body" style="text-align: center;">
+                            <a href="./html-assignment1.html" target="_blank" class="text-dec">
+                            <div><p class="card-title">Dinner</p></div>
+                            </a>
+                            <p class="card-details">Start your day with exclusive breakfast options</p>
+                        </div>
+                    </div>
+                </div>
+
+            
+                <!-- <div class="col-1 "></div> -->
+                <div class="d-flex mb-5 col-10 col-sm-9 col-md-4 col-lg-3 col-xl-3 px-0 py-0 border shadow bg-white">
+                        <img src="./image/Drinks.png" class="image-fluid w-50">
+                        <div class="class" style="width: 40%;">
+                            <div class="card-body" style="text-align: center;">
+                                <a href="./html-assignment1.html" target="_blank" class="text-dec">
+                                <div><p class="card-title">Drinks</p></div> 
+                                </a>
+                                <p class="card-details">Start your day with exclusive breakfast options</p>
+                            </div>
+                        </div>
+                </div>
+
+            
+                <!-- <div class="col-1"></div> -->
+                <div class="d-flex mb-5 col-10 col-sm-9 col-md-4 col-lg-3 col-xl-3 px-0 py-0 border shadow bg-white">
+                    <img src="./image/NightLife.png" class="image-fluid w-50">
+                    <div class="class" style="width: 40%;">
+                        <div class="card-body" style="text-align: center;">
+                            <a href="./html-assignment1.html" target="_blank" class="text-dec">
+                            <div><p class="card-title">NightLife</p></div> 
+                            </a>
+                            <p class="card-details">Start your day with exclusive breakfast options</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2"></div>  
+
+        </div>
+    </div>
+
+
+  </body>
+</html>

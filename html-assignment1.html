@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Poppins'>
+    <link rel="stylesheet" type="text/css" href="html-assignment1.css"/>
+    <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="html-assignment1.css">
+    <title>Filters page</title>
+</head>
+<body>
+    <header>
+        <span class="logo-span">
+            <a href="html-assignment1.html" class="logo-letter">e!</a>
+        </span>
+        <span class="login">
+            <a href="#" class="login-acc">LOGIN</a>
+            <a href="#" class="new-acc">CREATE AN ACCOUNT</a>
+        </span>
+    </header>
+    <main>
+        <section>
+            <div class="title">Breakfast Places In Mumbai</div>
+            <article class="filters">
+                <span>
+                    <div class="filters-class">   
+                        <label>Filters</label>
+                    </div>
+
+                    <div class="select-location">
+                        <label>Select Location</label>
+                        <input type="dropdown" name="location" id="location" placeholder="select the location"/>
+                    </div>
+                </span>
+                <span>
+                    <Div class="cuisine">
+                        <label>cuisine</label>
+                    </Div>
+                    <div class="cuisine-types">
+                    <Div>
+                        <input type="checkbox" id="NorthIndian" name="NorthIndian"/>
+                        <label>North Indian</label>
+                    </Div>
+                    <Div>
+                        <input type="checkbox" id="SouthIndian" name="SouthIndian"/>
+                        <label>South Indian</label>
+                    </Div>
+                    <Div>
+                        <input type="checkbox" id="Chinese" name="Chinese"/>
+                         <label>Chinese</label>
+                    </Div>
+                    <Div>
+                        <input type="checkbox" id="FastFood" name="FastFood"/>
+                       <label>Fast Food</label>
+                    </Div>
+                    <Div>
+                        <input type="checkbox" id="StreetFood" name="StreetFood"/>
+                        <label>Street Food</label>
+                    </Div>
+                    </div>
+                </span>
+
+                <span>
+                    <div class="cuisine-cost">
+                    <label>Cost For Two</label>
+                    </div>
+                    <div class="cost-amt">
+                        <div>
+                            <input type="radio" id="levelone" name="level one" />
+                            <label>less then 500</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="leveltwo" name="level two"/>
+                            <label>500 to 1000</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="levelthree" name="level three"/>
+                            <label>1000 to 1500</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="levelfour" name="level four"/>
+                            <label>1500 to 2000</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="levelfive" name="level five"/>
+                            <label>2000+</label>
+                        </div>
+                    </div>    
+                </span>
+
+                <span>
+                    <div class="select-sort">
+                    <label>Sort</label>
+                    </div>
+                    <div class="Sort-type">
+                    <div>
+                        <input type="radio" id="High to Low" name="High to Low"/>
+                        <label>Price High to Low</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Low to High" name="Low to High"/>
+                        <label>Price Low to High</label>
+                    </div>
+                    </div>
+                </span>
+                
+            </article>
+
+            <article class="result1">
+                <img src="./image/BreakFast.png"/>
+                <p class="head1">The Big Chill Cakery</p>
+                <p class="detail1">FORT</p> 
+                <p class="address1">Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+
+                <hr class="hr">
+
+                <pre class="item-rate1"> 
+                    CUISINES:
+                    COST FOR TWO:
+                </pre>
+
+                <pre class="item-details1">
+                    Bakery
+                    ₹700
+                </pre>
+                    
+            </article>
+
+            <article class="result2">
+                <img src="./image/BreakFast.png"/>
+                <p class="head1">The Big Chill Cakery</p>
+                <p class="detail1">FORT</p> 
+                <p class="address1">Shop 1, Plot D, Samruddhi Complex, Chincholi …</p>
+
+                <hr class="hr">
+
+                <pre class="item-rate1"> 
+                    CUISINES:
+                    COST FOR TWO:
+                </pre>
+
+                <pre class="item-details1">
+                    Bakery
+                    ₹700
+                </pre>
+            </article>
+            <div class="page-navigate">
+                <a href="#" class="less-then">&lt;</a>
+                <a href="#" class="one">1</a>
+                <a href="#" class="two">2</a>
+                <a href="#" class="three">3</a>
+                <a href="#" class="four">4</a>
+                <a href="#" class="five">5</a>
+                <a href="#" class="greater-then">&gt;</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
